@@ -6,7 +6,6 @@ function miniMaxSum(arr) {
 
     const sumArray = array => {
         let total = array.reduce((total, num) => total + num, 0);
-
         return total;
     }
 
